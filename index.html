@@ -335,8 +335,9 @@
             width: 100%;
             padding: 12px 15px 12px 40px;
             border-radius: 30px;
-            border: none;
-            background: var(--card-bg);
+            border: 1px solid white;
+            border-radius: 8px;
+            background: rgba(19,19,38);
             color: var(--text-color);
             font-size: 14px;
         }
@@ -435,9 +436,10 @@
         }
 
         .category-bar button {
-            background: var(--card-bg);
+            background: rgba(33,33,64);
+            border: 1px solid white;
+            border-radius: 8px;
             color: var(--text-secondary);
-            border: none;
             padding: 10px 20px;
             border-radius: 30px;
             cursor: pointer;
@@ -476,6 +478,7 @@
             border-radius: 8px;
             padding: 5px;
             margin-top: 10px;
+            border-radius: 30px;
             display: none;
             color: var(--text-color);
         }
@@ -875,6 +878,16 @@
         // Channels Data with DRM Support
         const channels = [
             { 
+                name: "Apple TV",
+                sources: [
+                    { name: "Server 1", url: "https://play.applelive.in/appletv/appletv.m3u8" },
+                    { name: "Server 2", url: "https://play.applelive.in/appletv/appletvklm.m3u8" }
+                ], 
+                img: "https://i.ibb.co/MyGBD846/AppleTV.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "india"
+            },
+            { 
                 name: "Global TV", 
                 sources: [
                     { name: "Server 1", url: "https://play.applelive.in/globaltv/globaltv.m3u8" }
@@ -950,14 +963,13 @@
                 description: "India"
             },
             { 
-                name: "Apple TV",
+                name: "VTV", 
                 sources: [
-                    { name: "Server 1", url: "https://play.applelive.in/appletv/appletvklm.m3u8" },
-                    { name: "Server 2", url: "https://play.applelive.in/appletv/appletv.m3u8" }
+                    { name: "Server 1", url: "https://play.applelive.in/vtv/vtv.m3u8" },
                 ], 
-                img: "https://i.ibb.co/MyGBD846/AppleTV.jpg", 
+                img: "https://i.ibb.co/fVLwhLsL/VTV.jpg", 
                 category: "Kanyakumari District Local Channel",
-                description: "india"
+                description: "India"
             },
             { 
                 name: "Thanima TV (TVM)", 
@@ -991,7 +1003,7 @@
             { 
                 name: "Janasruthi Media",
                 sources: [
-                    { name: "Server 1", url: "https://live.skystream.in/live/janatvm/index.m3u8" }
+                    { name: "Server 1", url: "https://live.applelive.in/janasruthitv/janasruthitv/index.m3u8" }
                 ], 
                 img: "https://i.ibb.co/KxbBw1Gy/Janasruthi-Media.jpg", 
                 category: "Trivandrum District Local Channel",
@@ -1848,15 +1860,6 @@
                 ], 
                 img: "https://i.ibb.co/vvhrTK8G/CCNet.jpg", 
                 category: "Local Cable Channel (Kerala)",
-                description: "India"
-            },
-            { 
-                name: "VTV", 
-                sources: [
-                    { name: "Server 1", url: "https://play.applelive.in/vtv/vtv.m3u8" },
-                ], 
-                img: "https://i.ibb.co/fVLwhLsL/VTV.jpg", 
-                category: "Kanyakumari District Local Channel",
                 description: "India"
             },
             { 
