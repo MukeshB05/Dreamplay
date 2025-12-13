@@ -375,6 +375,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Kumari Action", 
+                sources: [
+                    { name: "Server 1", url: "https://rtmp.applelive.in/kumariplus/kumariplus/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/8g6tVhXG/Kumari-Action.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Enthiran TV", 
                 sources: [
                     { name: "Server 1", url: "https://live.applelive.in/enthirantv/enthirantv/index.m3u8" }
