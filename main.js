@@ -1481,6 +1481,60 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Annai TV HD", 
+                sources: [
+                    { name: "Server 1", url: "https://annainew.livebox.co.in/annailivehls/live.m3u8" },
+                ], 
+                img: "https://i.ibb.co/F4htQDVY/Annai-TVHD.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "Annai Tamil HD", 
+                sources: [
+                    { name: "Server 1", url: "https://annainew.livebox.co.in/annaitamilhls/live.m3u8" },
+                ], 
+                img: "https://i.ibb.co/BhR84nG/Annai-Tamil-HD.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "7Star TV", 
+                sources: [
+                    { name: "Server 1", url: "https://annainew.livebox.co.in/7startvhls/livestream.m3u8" },
+                ], 
+                img: "https://i.ibb.co/C3gpVrps/7-Star-Television.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "Amma TV HD", 
+                sources: [
+                    { name: "Server 1", url: "https://annainew.livebox.co.in/ammatvhls/live.m3u8" },
+                ], 
+                img: "https://i.ibb.co/Zp4nBKwg/Amma-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "Sri Sai TV", 
+                sources: [
+                    { name: "Server 1", url: "https://annainew.livebox.co.in/srisaihls/live.m3u8" },
+                ], 
+                img: "https://i.ibb.co/JFzHmL4C/Sai-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "Sabari TV", 
+                sources: [
+                    { name: "Server 1", url: "https://annai.inet.moe/sabaritv/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/hx1VXpTR/Sabari-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
                 name: "Animal Plant English HD", 
                 sources: [
                     { name: "Server 1", url: "https://servertvhub.site/jio/app/ts_live_286.m3u8" },
