@@ -1481,12 +1481,30 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Media Today News", 
+                sources: [
+                    { name: "Server 1", url: "https://live.skystream.in/live/mediatday/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/My43DQ3R/Media-Today-News.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Annai TV HD", 
                 sources: [
                     { name: "Server 1", url: "https://annainew.livebox.co.in/annailivehls/live.m3u8" },
                 ], 
                 img: "https://i.ibb.co/F4htQDVY/Annai-TVHD.jpg", 
                 category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "New Media Channel", 
+                sources: [
+                    { name: "Server 1", url: "https://live.skystream.in/live/newmedia2924/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/ch3QB10J/New-Media-Channel.jpg", 
+                category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
             { 
@@ -1505,6 +1523,15 @@ const channels = [
                 ], 
                 img: "https://i.ibb.co/C3gpVrps/7-Star-Television.jpg", 
                 category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "Network TV", 
+                sources: [
+                    { name: "Server 1", url: "https://live.skystream.in/live/networkpayyanur/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/prGsM7cW/Network-TV.jpg", 
+                category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
             { 
