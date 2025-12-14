@@ -441,6 +441,33 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Nisha TV", 
+                sources: [
+                    { name: "Server 1", url: "https://app.ashokadigital.net/app/7825e06b/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/Q78WMrSs/Nisha-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "7Star TV", 
+                sources: [
+                    { name: "Server 1", url: "https://app.ashokadigital.net/app/ed8bd4a7/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/chHNLYTp/7Star-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
+                name: "7Star Music TV", 
+                sources: [
+                    { name: "Server 1", url: "https://app.ashokadigital.net/app/9346e98d/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/rKWDQ0Hp/7-Star-Music-TV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
                 name: "B4U Music", 
                 sources: [
                     { name: "Server 1", url: "https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8" },
