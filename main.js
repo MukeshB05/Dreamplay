@@ -10,6 +10,15 @@ const channels = [
                 description: "india"
             },
             { 
+                name: "Apple TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/appletv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/F4CFQJkH/Apple-TV.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Global TV", 
                 sources: [
                     { name: "Server 1", url: "https://play.applelive.in/globaltv/globaltv.m3u8" }
