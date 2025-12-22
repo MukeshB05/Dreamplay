@@ -1571,6 +1571,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Periyar Vision", 
+                sources: [
+                    { name: "Server 1", url: "https://stream.onecloudlive.in/periyarvision/periyarvision/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/8nmGn4FY/Periyar-Vision.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Animal Plant English HD", 
                 sources: [
                     { name: "Server 1", url: "https://servertvhub.site/jio/app/ts_live_286.m3u8" },
