@@ -1580,6 +1580,42 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Citi Channel", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://stream.logichost.in:1935/CITI/live/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/5XTyVQW8/Citi-Channel.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Kalika TV", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://server.applelive.in/kalikatv/kalikatv.m3u8" },
+                ], 
+                img: "https://i.ibb.co/qYyFSg3m/Kalika-TV.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Teak Vision HD", 
+                sources: [
+                    { name: "Server 1", url: "https://hd.singamcloud.in/teakvision/teakvision/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/6cyLXGfd/Teak-Vision-HD.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Eagle One News", 
+                sources: [
+                    { name: "Server 1", url: "https://5a1178b42cc03.streamlock.net/8182/8182/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Animal Plant English HD", 
                 sources: [
                     { name: "Server 1", url: "https://servertvhub.site/jio/app/ts_live_286.m3u8" },
