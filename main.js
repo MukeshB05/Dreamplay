@@ -1589,6 +1589,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "RK TV", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://rktv.phoenixcreations.online/rktv/rktv/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/gMQLySTN/RKTV.jpg", 
+                category: "Local Cable Channel (Tamilnadu)",
+                description: "India"
+            },
+            { 
                 name: "Kalika TV", 
                 sources: [
                     { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://server.applelive.in/kalikatv/kalikatv.m3u8" },
