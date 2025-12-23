@@ -1625,6 +1625,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Eagle One News", 
+                sources: [
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                ], 
+                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                category: "News",
+                description: "India"
+            },
+            { 
                 name: "Animal Plant English HD", 
                 sources: [
                     { name: "Server 1", url: "https://servertvhub.site/jio/app/ts_live_286.m3u8" },
