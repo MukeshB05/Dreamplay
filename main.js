@@ -1625,7 +1625,34 @@ const channels = [
                 description: "India"
             },
             { 
-                name: "Eagle One News", 
+                name: "Sun News", 
+                sources: [
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                ], 
+                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                category: "News",
+                description: "India"
+            },
+            { 
+                name: "M7 News", 
+                sources: [
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                ], 
+                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                category: "News",
+                description: "India"
+            },
+            { 
+                name: "Vismaya News", 
+                sources: [
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                ], 
+                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                category: "News",
+                description: "India"
+            },
+            { 
+                name: "Kerala Vision News 24x7", 
                 sources: [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
