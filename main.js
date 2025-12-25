@@ -1627,7 +1627,7 @@ const channels = [
             { 
                 name: "Sun News", 
                 sources: [
-                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=9M02G5c6x6w" },
                 ], 
                 img: "https://i.ibb.co/Rpv756pb/Sun-News.jpg", 
                 category: "News",
@@ -1636,7 +1636,7 @@ const channels = [
             { 
                 name: "M7 News", 
                 sources: [
-                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=X1hi2UM4sa4" },
                 ], 
                 img: "https://i.ibb.co/VWy3bV30/M7News.jpg", 
                 category: "Trivandrum District Local Channel",
@@ -1654,7 +1654,7 @@ const channels = [
             { 
                 name: "Kerala Vision News 24x7", 
                 sources: [
-                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=3446A6FzW3o" },
                 ], 
                 img: "https://i.ibb.co/Pz5DfLsn/Kerala-Vision-News24x7.jpg", 
                 category: "News",
