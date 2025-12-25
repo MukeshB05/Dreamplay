@@ -1629,7 +1629,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
-                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                img: "https://i.ibb.co/Rpv756pb/Sun-News.jpg", 
                 category: "News",
                 description: "India"
             },
@@ -1638,7 +1638,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
-                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                img: "https://i.ibb.co/VWy3bV30/M7News.jpg", 
                 category: "News",
                 description: "India"
             },
@@ -1647,7 +1647,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
-                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                img: "https://i.ibb.co/0VC7dPtj/Vismaya-News.jpg", 
                 category: "News",
                 description: "India"
             },
@@ -1656,7 +1656,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
-                img: "https://i.ibb.co/qYBrDJcJ/Eagle-One-News.jpg", 
+                img: "https://i.ibb.co/Pz5DfLsn/Kerala-Vision-News24x7.jpg", 
                 category: "News",
                 description: "India"
             },
