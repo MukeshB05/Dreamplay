@@ -1645,7 +1645,7 @@ const channels = [
             { 
                 name: "Vismaya News", 
                 sources: [
-                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
+                    { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=g4n1ecRt_AQ" },
                 ], 
                 img: "https://i.ibb.co/0VC7dPtj/Vismaya-News.jpg", 
                 category: "News",
