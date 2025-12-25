@@ -1639,7 +1639,7 @@ const channels = [
                     { name: "Server 1", url: "https://v5on.site/web/yt-restream/live.php?video_id=nObUcHKZEGY" },
                 ], 
                 img: "https://i.ibb.co/VWy3bV30/M7News.jpg", 
-                category: "News",
+                category: "Trivandrum District Local Channel",
                 description: "India"
             },
             { 
