@@ -397,7 +397,16 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://live.applelive.in/enthirantv/enthirantv/index.m3u8" }
                 ], 
-                img: "https://i.ibb.co/1YhxC7QP/Enthirantv.jpg", 
+                img: "https://i.ibb.co/35NpHtBn/Enthiran-TV.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "Robo TV", 
+                sources: [
+                    { name: "Server 1", url: "https://play.applelive.in/robotv/robotv.m3u8" }
+                ], 
+                img: "https://i.ibb.co/4RdKVQBY/Robo-TV.jpg", 
                 category: "Kanyakumari District Local Channel",
                 description: "India"
             },
@@ -600,7 +609,7 @@ const channels = [
             { 
                 name: "AVS", 
                 sources: [
-                    { name: "Server 1", url: "https://app.applelive.in/avstv/avstv/index.m3u8" },
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://applelive.net:8091/avstv/avstv/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/FLp5TnL1/AVS.jpg", 
                 category: "Kanyakumari District Local Channel",
