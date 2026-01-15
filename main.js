@@ -1706,6 +1706,42 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Malabar News", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/live/malabarnews/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/k2rJDLHb/Malabar-News.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Malabar Plus", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/live/mplus/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/cSzWsQqC/Malabar-Plus.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "KC Vision", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://111.92.41.129:11037/hls/kv.m3u8" },
+                ], 
+                img: "https://i.ibb.co/FqJkGq7L/KCVision-HD.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "PTA News", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/PTA/live/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/XZgjBpcv/PTANews.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Animal Plant English HD", 
                 sources: [
                     { name: "Server 1", url: "https://servertvhub.site/jio/app/ts_live_286.m3u8" },
