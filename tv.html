@@ -29,6 +29,23 @@ body{background:#000;color:#fff;overflow:hidden}
   display:block;height:auto;width:5vw;max-width:50px;min-width:25px;
 }
 
+/* watermark force visible */
+.video-container:fullscreen .video-logo-watermark,
+.video-container:-webkit-full-screen .video-logo-watermark,
+.video-container:-moz-full-screen .video-logo-watermark,
+.video-container:-ms-fullscreen .video-logo-watermark{
+  opacity:0.45 !important;
+  visibility:visible !important;
+  display:block !important;
+}
+
+/* watermark top layer */
+.video-logo-watermark{
+  z-index:9999 !important;
+  position:fixed;
+  pointer-events:none;
+}
+  
 /* ===== VIDEO ===== */
 .video-container{position:relative;width:100vw;height:100vh;background:#000}
 #video{width:100%;height:100%;object-fit:fill;background:#000}
@@ -41,7 +58,8 @@ body{background:#000;color:#fff;overflow:hidden}
   align-items:center;
   justify-content:center;
   background: url("image/Dreamly5cover.jpg") center center / cover no-repeat;
-  z-index:95;
+  z-index:60;
+  pointer-events:none;
 }
 .overlayCenter.show{display:flex}
 
@@ -89,7 +107,7 @@ body{background:#000;color:#fff;overflow:hidden}
   display:flex;align-items:center;gap:14px;
   opacity:0;pointer-events:none;
   transition:.2s;
-  z-index:70;
+  z-index:120;
 }
 .infoBar.show{opacity:1;pointer-events:auto}
 .infoLeft{display:flex;align-items:center;gap:12px;flex:1;min-width:0}
@@ -471,6 +489,7 @@ body{background:#000;color:#fff;overflow:hidden}
 <div class="video-logo-watermark hidden" id="videoLogoWatermark">
   <img src="https://i.ibb.co/TB2wVJ5r/Dreamly5livetv.png" alt="T Play Logo">
 </div>
+</div>
 
 <script src="main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
@@ -576,6 +595,9 @@ function toggleFullscreen() {
 document.addEventListener('fullscreenchange', () => {
   isFullscreen = !!document.fullscreenElement;
   fullscreenIcon.className = isFullscreen ? "fas fa-compress" : "fas fa-expand";
+  if(isFullscreen){
+    showLogo();
+  }
 });
 
 /* ===================== Settings Functions ===================== */
@@ -826,6 +848,9 @@ function clamp(n,a,b){ return Math.max(a, Math.min(b,n)); }
 
 function showLoading(on){
   loading.classList.toggle("show", !!on);
+  if(on){
+    showInfoBar(true, 10000);
+  }
 }
 function showNoSignal(on, msg){
   noSignal.classList.toggle("show", !!on);
@@ -844,7 +869,6 @@ function isDash(src){
 }
 
 async function playChannel(index){
-  // Hide logo when changing channel
   hideLogo();
   
   currentIndex = clamp(index, 0, channels.length-1);
@@ -857,7 +881,7 @@ async function playChannel(index){
 
   showNoSignal(false);
   showLoading(true);
-  showInfoBar(true, 8000);
+  showInfoBar(true, 10000);
 
   await tryLoadSourceLoop();
 }
