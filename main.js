@@ -957,6 +957,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Pulari TV", 
+                sources: [
+                    { name: "Server 1", url: "https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8" },
+                ], 
+                img: "https://i.ibb.co/gMgxLnKZ/Pulari-TV.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Mazhavil Manorama HD", 
                 sources: [
                     { name: "Server 1", url: "https://cdn-7.pishow.tv/live/1129/master.m3u8" },
@@ -1667,6 +1676,33 @@ const channels = [
                 ], 
                 img: "https://i.ibb.co/Pz5DfLsn/Kerala-Vision-News24x7.jpg", 
                 category: "News",
+                description: "India"
+            },
+            { 
+                name: "VCV Vision", 
+                sources: [
+                    { name: "Server 1", url: "https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/2YhMvyPz/VCVVision.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Vibgyor", 
+                sources: [
+                    { name: "Server 1", url: "https://pvqybagglz24-hls-live.5centscdn.com/7788_push_2913_001/c98886a28a6a78b57f2d090f3b0ecac4.sdp/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/mFX6SCrR/Vibgyor.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "VBC News", 
+                sources: [
+                    { name: "Server 1", url: "https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8" },
+                ], 
+                img: "https://i.ibb.co/60JvpCmj/VBCNews.jpg", 
+                category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
             { 
