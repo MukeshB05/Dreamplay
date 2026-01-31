@@ -13,6 +13,7 @@ const channels = [
                 name: "Apple TV", 
                 sources: [
                     { name: "Server 1", url: "https://web.applelive.in/stream/appletv/index.m3u8" }
+                    { name: "Server 1", url: "https://play.applelive.in/appletv/appletvmtm.m3u8" }
                 ], 
                 img: "https://i.ibb.co/F4CFQJkH/Apple-TV.jpg", 
                 category: "Kanyakumari District Local Channel",
@@ -221,6 +222,24 @@ const channels = [
                 ], 
                 img: "https://i.ibb.co/hxt4kgvP/GTVMAX.jpg", 
                 category: "Trivandrum District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "Rowthiram TV", 
+                sources: [
+                    { name: "Server 1", url: "https://live3.onecloudlive.in/eleventv/eleventv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/DDMmJQ4h/Rowthiram-TV.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "G Max", 
+                sources: [
+                    { name: "Server 1", url: "https://play.applelive.in/gcv/gcv.m3u8" }
+                ], 
+                img: "https://i.ibb.co/3YTpGjWs/GMax.jpg", 
+                category: "Kanyakumari District Local Channel",
                 description: "India"
             },
             { 
