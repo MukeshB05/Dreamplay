@@ -12,8 +12,8 @@ const channels = [
             { 
                 name: "Apple TV", 
                 sources: [
-                    { name: "Server 1", url: "https://web.applelive.in/stream/appletv/index.m3u8" }
-                    { name: "Server 1", url: "https://play.applelive.in/appletv/appletvmtm.m3u8" }
+                    { name: "Server 1", url: "https://web.applelive.in/stream/appletv/index.m3u8" },
+                    { name: "Server 2", url: "https://play.applelive.in/appletv/appletvmtm.m3u8" }
                 ], 
                 img: "https://i.ibb.co/F4CFQJkH/Apple-TV.jpg", 
                 category: "Kanyakumari District Local Channel",
