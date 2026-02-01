@@ -432,7 +432,7 @@ const channels = [
             { 
                 name: "OMM TV", 
                 sources: [
-                    { name: "Server 1", url: "https://live.applelive.in/ommtv/ommtv/index.m3u8" }
+                    { name: "Server 1", url: "https://play.applelive.in/ommtv/ommtv.m3u8" }
                 ], 
                 img: "https://i.ibb.co/4n195VJ2/ommtv.jpg", 
                 category: "Kanyakumari District Local Channel",
