@@ -414,7 +414,7 @@ const channels = [
             { 
                 name: "Enthiran TV", 
                 sources: [
-                    { name: "Server 1", url: "https://live.applelive.in/enthirantv/enthirantv/index.m3u8" }
+                    { name: "Server 1", url: "https://play.applelive.in/hls/enthirantv.m3u8" }
                 ], 
                 img: "https://i.ibb.co/35NpHtBn/Enthiran-TV.jpg", 
                 category: "Kanyakumari District Local Channel",
