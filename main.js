@@ -104,6 +104,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Big TV 24x7",
+                sources: [
+                    { name: "Server 1", url: "https://in1.sunilprasad.com.np/yuppLive/big-tv-malayalam/master.m3u8" }
+                ], 
+                img: "https://i.ibb.co/hJrJ08X4/Big-TV24x7.jpg", 
+                category: "News",
+                description: "Malayalam"
+            },
+            { 
                 name: "Thanima TV (TVM)", 
                 sources: [
                     { name: "Server 1", url: "https://live.skystream.in/live/thanimatvtvm/index.m3u8" },
