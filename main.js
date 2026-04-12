@@ -1734,11 +1734,65 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Cranganore", 
+                sources: [
+                    { name: "Server 1", url: "https://live.applelive.in/cranganorechannel/cranganorechannel/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/N6wM0rJW/Cranganore500x500.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Global On", 
+                sources: [
+                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://103.72.179.18:8080/memfs/691339d4-2b7b-4f19-9f70-326a357fdbd4.m3u8" },
+                ], 
+                img: "https://i.ibb.co/GfQZG57W/Global-On.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "TCV Tirur", 
+                sources: [
+                    { name: "Server 1", url: "https://js.logichost.in/hls/f4d7e750ee8f8385fe5be797/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/6kpvn5d/TCV.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Media Malabar", 
+                sources: [
+                    { name: "Server 1", url: "https://js.logichost.in/hls/151f0e3016366711834ba1ef/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/GGhkQKP/Media-Malabar.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "C Net", 
+                sources: [
+                    { name: "Server 1", url: "https://js.logichost.in/hls/6c810aa85aefcf722f0bf48c/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/tphLCgwb/CNet.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "Malabar News", 
                 sources: [
                     { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/live/malabarnews/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/k2rJDLHb/Malabar-News.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
+                name: "Zeal", 
+                sources: [
+                    { name: "Server 1", url: "https://js.logichost.in/hls/b3bca7915be6d35ccf447122/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/HT1vzrPr/Zeal.jpg", 
                 category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
