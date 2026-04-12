@@ -1745,7 +1745,7 @@ const channels = [
             { 
                 name: "Global On", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://103.72.179.18:8080/memfs/691339d4-2b7b-4f19-9f70-326a357fdbd4.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://103.72.179.18:8080/memfs/691339d4-2b7b-4f19-9f70-326a357fdbd4.m3u8" },
                 ], 
                 img: "https://i.ibb.co/GfQZG57W/Global-On.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1781,7 +1781,7 @@ const channels = [
             { 
                 name: "Malabar News", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/live/malabarnews/index.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://cloud.logichost.in:1935/live/malabarnews/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/k2rJDLHb/Malabar-News.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1799,7 +1799,7 @@ const channels = [
             { 
                 name: "Malabar Plus", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/live/mplus/index.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://cloud.logichost.in:1935/live/mplus/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/cSzWsQqC/Malabar-Plus.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1808,7 +1808,7 @@ const channels = [
             { 
                 name: "KC Vision", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://111.92.41.129:11037/hls/kv.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://111.92.41.129:11037/hls/kv.m3u8" },
                 ], 
                 img: "https://i.ibb.co/FqJkGq7L/KCVision-HD.jpg", 
                 category: "Local Cable Channel (Kerala)",
