@@ -97,7 +97,7 @@ const channels = [
             { 
                 name: "VTV", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/https://play.applelive.in/vtv/vtv.m3u8" },
+                    { name: "Server 1", url: "https://play.applelive.in/vtv/vtv.m3u8" },
                 ], 
                 img: "https://i.ibb.co/fVLwhLsL/VTV.jpg", 
                 category: "Kanyakumari District Local Channel",
@@ -302,7 +302,7 @@ const channels = [
             {
                 name: "Surya TV HD", 
                 sources: [
-                    { name: "Server 1", url: "https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8" }
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8" }
                 ], 
                 img: "https://i.ibb.co/xKr9GRd8/Suryahd.jpg", 
                 category: "Malayalam",
@@ -360,7 +360,7 @@ const channels = [
             { 
                 name: "Asianet HD", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://217.20.112.199/asianet/index.m3u8" }
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://217.20.112.199/asianet/index.m3u8" }
    
                 ], 
                 img: "https://i.ibb.co/S7JY0Q3f/Asianethd.jpg", 
@@ -637,7 +637,7 @@ const channels = [
             { 
                 name: "AVS", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://applelive.net:8091/avstv/avstv/index.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://applelive.net:8091/avstv/avstv/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/FLp5TnL1/AVS.jpg", 
                 category: "Kanyakumari District Local Channel",
@@ -915,7 +915,7 @@ const channels = [
             { 
                 name: "Balatrara Vision", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://cloud.logichost.in:1935/BALATARA/live/index.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://cloud.logichost.in:1935/BALATARA/live/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/v4q0z10V/Balatrara-Vision.jpg", 
                 category: "Trivandrum District Local Channel",
@@ -924,7 +924,7 @@ const channels = [
             { 
                 name: "KCN HD", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://kcnsdhlsapp.ylivestream.com/kcnsdapphls/index.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://kcnsdhlsapp.ylivestream.com/kcnsdapphls/index.m3u8" },
                 ], 
                 img: "https://i.ibb.co/kVp5VVbX/KCNHD.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1251,7 +1251,7 @@ const channels = [
             { 
                 name: "Fox TV", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://103.118.151.130:11037/hls/fox.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://103.118.151.130:11037/hls/fox.m3u8" },
                 ], 
                 img: "https://i.ibb.co/qYTZTRkL/FoxTV.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1628,7 +1628,7 @@ const channels = [
             { 
                 name: "Citi Channel", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://stream.logichost.in:1935/CITI/live/playlist.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://stream.logichost.in:1935/CITI/live/playlist.m3u8" },
                 ], 
                 img: "https://i.ibb.co/5XTyVQW8/Citi-Channel.jpg", 
                 category: "Local Cable Channel (Kerala)",
@@ -1637,7 +1637,7 @@ const channels = [
             { 
                 name: "RK TV", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://rktv.phoenixcreations.online/rktv/rktv/playlist.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://rktv.phoenixcreations.online/rktv/rktv/playlist.m3u8" },
                 ], 
                 img: "https://i.ibb.co/gMQLySTN/RKTV.jpg", 
                 category: "Local Cable Channel (Tamilnadu)",
@@ -1646,7 +1646,7 @@ const channels = [
             { 
                 name: "Kalika TV", 
                 sources: [
-                    { name: "Server 1", url: "https://anywhere.pwisetthon.com/http://server.applelive.in/kalikatv/kalikatv.m3u8" },
+                    { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://server.applelive.in/kalikatv/kalikatv.m3u8" },
                 ], 
                 img: "https://i.ibb.co/qYyFSg3m/Kalika-TV.jpg", 
                 category: "Local Cable Channel (Kerala)",
