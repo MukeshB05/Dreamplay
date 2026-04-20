@@ -104,6 +104,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "BMTV Blue Moon", 
+                sources: [
+                    { name: "Server 1", url: "https://rtmp.bmlive.net/bms/bmtv/stream.m3u8" },
+                ], 
+                img: "https://i.ibb.co/jkTPkPtc/BMTVBluemoonhd.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Big TV 24x7",
                 sources: [
                     { name: "Server 1", url: "https://d2gvyg6lvauoko.cloudfront.net/230226/bigtvmalyalam/chunks.m3u8" }
@@ -922,11 +931,11 @@ const channels = [
                 description: "India"
             },
             { 
-                name: "KCN HD", 
+                name: "Metro Live", 
                 sources: [
                     { name: "Server 1", url: "https://cors-proxy.cooks.fyi/http://kcnsdhlsapp.ylivestream.com/kcnsdapphls/index.m3u8" },
                 ], 
-                img: "https://i.ibb.co/kVp5VVbX/KCNHD.jpg", 
+                img: "https://i.ibb.co/h1KL6jQR/Metrolive500x500.jpg", 
                 category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
@@ -1720,7 +1729,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://pvqybagglz24-hls-live.5centscdn.com/7788_push_2913_001/c98886a28a6a78b57f2d090f3b0ecac4.sdp/playlist.m3u8" },
                 ], 
-                img: "https://i.ibb.co/mFX6SCrR/Vibgyor.jpg", 
+                img: "https://i.ibb.co/C3dzPDMC/Vibgyor-TV500x500.jpg", 
                 category: "Local Cable Channel (Kerala)",
                 description: "India"
             },
