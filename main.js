@@ -1727,7 +1727,7 @@ const channels = [
             { 
                 name: "Vibgyor", 
                 sources: [
-                    { name: "Server 1", url: "https://pvqybagglz24-hls-live.5centscdn.com/7788_push_2913_001/c98886a28a6a78b57f2d090f3b0ecac4.sdp/playlist.m3u8" },
+                    { name: "Server 1", url: "https://livestream.vibgyortv.com/hls/stream.m3u8" },
                 ], 
                 img: "https://i.ibb.co/C3dzPDMC/Vibgyor-TV500x500.jpg", 
                 category: "Local Cable Channel (Kerala)",
