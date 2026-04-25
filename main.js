@@ -131,10 +131,18 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Sonic Vision", 
+                sources: [
+                    { name: "Server 1", url: "https://live.skystream.in/live/sonicktrkra/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/chX2DJvJ/Sonic-Vision500x500.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "Kerala"
+            },
+            { 
                 name: "Reporter",
                 sources: [
                     { name: "Server 1", url: "https://segment.yuppcdn.net/050522/reporter/playlist.m3u8" },
-                    { name: "Server 2", url: "https://tplay.live/out/news/independent-tv/index.m3u8" }
                 ], 
                 img: "https://i.ibb.co/hJ52GZDY/reporter.jpg", 
                 category: "News",
