@@ -66,6 +66,24 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Amma TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/ammatv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/DHWZ2sLM/ammatvngl500x500.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "TTN", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/ttntv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/wNYD6sF4/ttnngl500x500.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Manorama News", 
                 sources: [
                     { name: "Server 1", url: "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8" },
