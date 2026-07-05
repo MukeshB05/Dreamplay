@@ -104,6 +104,15 @@ const channels = [
                 description: "Malayalam"
             },
             { 
+                name: "S Max", 
+                sources: [
+                    { name: "Server 1", url: "https://play.applelive.in/smaxtv/smaxtv.m3u8" },
+                ], 
+                img: "https://i.ibb.co/rfNNkZRM/Smaxmtm.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Sun HD HD", 
                 sources: [
                     { name: "Server 1", url: "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8" }
@@ -195,6 +204,42 @@ const channels = [
                 description: "Malayalam"
             },
             { 
+                name: "Kanna TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/kktv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/qMJFz3cC/kannatvngl.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "Omm TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/ommtv/ommtv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/tMSfWqW3/Ommtvngl500x500.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "SR TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/srtv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/fdXYgvDp/SRTVngl500x500.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
+                name: "Vinayaga TV", 
+                sources: [
+                    { name: "Server 1", url: "https://web.applelive.in/stream/vinayagatv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/MxcqwyZg/Vinayagatvngl500x500.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Mathrubhumi News",
                 sources: [
                     { name: "Server 1", url: "https://segment.yuppcdn.net/110322/mathrubhuminews/playlist.m3u8" }
@@ -221,6 +266,15 @@ const channels = [
                 img: "https://i.ibb.co/Y46GTXsW/asianetnews.jpg", 
                 category: "News",
                 description: "Malayalam"
+            },
+            { 
+                name: "RK TV", 
+                sources: [
+                    { name: "Server 1", url: "https://play.applelive.in/rktv/rktv.m3u8" }
+                ], 
+                img: "https://i.ibb.co/9mtfZp1M/RKTVngl.jpg", 
+                category: "Kanyakumari District Local Channel",
+                description: "India"
             },
             { 
                 name: "Jaihind",
@@ -629,15 +683,6 @@ const channels = [
                 ], 
                 img: "https://i.postimg.cc/SsVLHrkc/z-cinema.jpg", 
                 category: "Movie",
-                description: "India"
-            },
-            { 
-                name: "S Max", 
-                sources: [
-                    { name: "Server 1", url: "https://play.applelive.in/smaxtv/smaxtv.m3u8" },
-                ], 
-                img: "https://i.ibb.co/tMH8LYhk/Smax.jpg", 
-                category: "Kanyakumari District Local Channel",
                 description: "India"
             },
             { 
