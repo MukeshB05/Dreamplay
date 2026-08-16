@@ -66,6 +66,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "DTV", 
+                sources: [
+                    { name: "Server 1", url: "https://live.applelive.in/dtv/dtv/index.m3u8" }
+                ], 
+                img: "https://i.ibb.co/NnFXv0PQ/DTV.jpg", 
+                category: "Trivandrum District Local Channel",
+                description: "India"
+            },
+            { 
                 name: "Amma TV", 
                 sources: [
                     { name: "Server 1", url: "https://web.applelive.in/stream/ammatv/index.m3u8" }
