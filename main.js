@@ -125,7 +125,7 @@ const channels = [
                         }
                     }
                 ], 
-                img: "https://i.ibb.co/gLyJ4pq0/Willowsports.jpg", 
+                img: "https://i.ibb.co/CKbBhvwP/suntvhd.jpg", 
                 category: "Tamil",
                 description: "India"
             },
