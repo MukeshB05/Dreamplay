@@ -113,11 +113,19 @@ const channels = [
                 description: "India"
             },
             { 
-                name: "Sun HD HD", 
+                name: "Sun TV HD", 
                 sources: [
-                    { name: "Server 1", url: "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8" }
+                    { 
+                        name: "Auto", 
+                        url: "https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd",
+                        type: "dash",
+                        drm: {
+                            kid: "3891557f1cb14dedb7545bf52499d748",
+                            key: "fb662f742e5f5e0c61a7c1c66d2b019a"
+                        }
+                    }
                 ], 
-                img: "https://i.ibb.co/k2TpVBp6/suntvhd.jpg", 
+                img: "https://i.ibb.co/gLyJ4pq0/Willowsports.jpg", 
                 category: "Tamil",
                 description: "India"
             },
