@@ -70,7 +70,7 @@ const channels = [
                 sources: [
                     { name: "Server 1", url: "https://live.applelive.in/dtv/dtv/index.m3u8" }
                 ], 
-                img: "https://i.ibb.co/NnFXv0PQ/DTV.jpg", 
+                img: "https://i.ibb.co/0RkJpBCH/DTV.jpg", 
                 category: "Trivandrum District Local Channel",
                 description: "India"
             },
@@ -129,8 +129,8 @@ const channels = [
                         url: "https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd",
                         type: "dash",
                         drm: {
-                            kid: "3891557f1cb14dedb7545bf52499d748",
-                            key: "fb662f742e5f5e0c61a7c1c66d2b019a"
+                            kid: "fb662f742e5f5e0c61a7c1c66d2b019a",
+                            key: "3891557f1cb14dedb7545bf52499d748"
                         }
                     }
                 ], 
