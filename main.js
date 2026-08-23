@@ -148,6 +148,15 @@ const channels = [
                 description: "India"
             },
             { 
+                name: "Kerala GTPL HD", 
+                sources: [
+                    { name: "Server 1", url: "https://srvx.nellaiiptv.com/restream/4vwghq/index.m3u8" },
+                ], 
+                img: "https://i.ibb.co/WvCgmMPs/Kerala-GTPL.jpg", 
+                category: "Local Cable Channel (Kerala)",
+                description: "India"
+            },
+            { 
                 name: "BMTV Blue Moon", 
                 sources: [
                     { name: "Server 1", url: "https://rtmp.bmlive.net/bms/bmtv/stream.m3u8" },
